@@ -7,4 +7,6 @@ const surveyController = new SurveysController();
 
 surveyRouter.post("/", surveyController.create);
 
+surveyRouter.get("/", surveyController.show);
+
 export { surveyRouter };
