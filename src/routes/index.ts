@@ -6,6 +6,6 @@ import { surveyRouter } from "./surveyRoutes";
 const router = Router();
 
 router.use("/users", userRouter);
-router.use("/survey", surveyRouter);
+router.use("/surveys", surveyRouter);
 
 export { router };
